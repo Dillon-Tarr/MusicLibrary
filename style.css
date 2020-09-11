@@ -7,7 +7,7 @@ body {
 th {
   background-color: rgb(97, 0, 0);
   padding: .5rem;
-  border: solid rgb(216, 216, 216) 2px;
+  border: solid rgb(218, 218, 218) 2px;
   
 }
 td {
@@ -24,8 +24,18 @@ td {
 
 #results-table {
   background-color: rgb(92, 92, 92);
-  padding: 3px;
+  padding: 0px;
   border: solid rgb(218, 218, 218) 3px;
   position: absolute;
   left: 5px;
+  max-width: 80%;
+}
+#filter-form {
+  line-height: 1.5rem;
+  padding: 5px;
+  border: dotted rgb(218, 218, 218) 2px;
+  position: absolute;
+  right: 5px;
+  min-width: 210px;
+  max-width: 15%;
 }
